@@ -4,6 +4,7 @@ html {
 
 
 .meme-generator {
+    align-items: center;
     background-color: rgba(62, 255, 255, 0.596);
     font-family: "comic sans ms", comic;
     text-align: center;
