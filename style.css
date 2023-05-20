@@ -15,7 +15,7 @@ html {
 
 .meme-generator img {
     height: 460px;
-    object-fit: contain;
+    object-fit: fill;
 }
 
 .meme-generator .generate-meme-btn {
