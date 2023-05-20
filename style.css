@@ -1,12 +1,21 @@
+html {
+    background-image: url("https://mediacloud.theweek.com/image/private/s--X-WVjvBW--/f_auto,t_content-image-full-desktop@1/v1608153534/57106_article_full.jpg");
+}
+
 
 .meme-generator {
+    background-color: rgba(62, 255, 255, 0.596);
     font-family: "comic sans ms", comic;
     text-align: center;
+    color:rgb(255, 104, 217);
+    text-shadow: #222 2px 1px 1px;
+    font-size: 30px;
+    height: 100%;
 }
 
 .meme-generator img {
-    height: 430px;
-    object-fit: cover;
+    height: 460px;
+    object-fit: contain;
 }
 
 .meme-generator .generate-meme-btn {
@@ -15,8 +24,8 @@
     border-left: 4px solid #222;
     border-right: 4px solid #222;
     margin: 24px 0;
-    font-size: 20px;
-    color: pink;
+    font-size: 36px;
+    color: rgb(247, 15, 255);
     background: rgb(251, 255, 0);
     cursor: pointer;
     transition: all 300ms ease;
@@ -26,7 +35,7 @@
     background: #eeff00;
     color: rgb(0, 195, 255);
     padding: 8px 30px;
-    text-decoration-color: rgb(255, 136, 0);
+    text-decoration-color: rgb(173, 0, 101);
     border-left: 6px solid #222;
     border-right: 6px solid #222;
     letter-spacing: 1.5px;
@@ -34,6 +43,7 @@
 
 .meme-generator .meme-author {
     margin: 12px; 
-    text-shadow: #9dff00 1px 1px 1px;
-    font-size: 20px;
+    text-shadow: #5900ff 1px 1px 1px;
+    font-size: 24px;
+    background-color: rgba(62, 255, 255, 0.767);
 }
